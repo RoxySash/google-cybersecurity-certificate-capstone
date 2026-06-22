@@ -27,7 +27,6 @@ To effectively remediate the incident, a series of actions was taken in alignmen
 **Isolate the compromised VM:** The VM cc-app-01 was identified as the infected VM. It was shut down and deleted. A new VM was created from an uninfected snapshot. A configuration to use a private IP address was set up, and secure boost was enabled.<br>
 **RDP and SSH access were restricted:** The firewalls were adjusted to restrict SSH access to only a specific IP range, and firewall logging was enabled.
 
-
 ## Recovery measures
 **Restore from trusted snapshots:** A prior snapshot was taken prior to this incident, and the new VM was restored from this previous snapshot.<br>
 **Improved monitoring of all logging:** Strengthened the monitoring by implementing real-time log analysis, which enables us to identify unauthorized access or any suspicious activities.<br> 
